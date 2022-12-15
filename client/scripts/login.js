@@ -15,7 +15,7 @@ btn.addEventListener("click", (e) => {
     email: email.value,
     password: password.value,
   };
-  fetch("http://localhost:8000/login", {
+  fetch("https://auth-3vba.onrender.com/login", {
     headers: {
       "Content-Type": "application/json",
     },

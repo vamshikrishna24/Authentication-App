@@ -5,7 +5,7 @@ const password = document.querySelector("#password");
 signupbtn.addEventListener("click", (e) => {
   //   window.location.replace("./login-edit.html");
   if (!email.value || !password.value) return alert("Enter all credentials");
-  fetch(`http://localhost:8000/signup`, {
+  fetch(`https://auth-3vba.onrender.com/signup`, {
     method: "POST",
     headers: {
       "Content-Type": "application/json",

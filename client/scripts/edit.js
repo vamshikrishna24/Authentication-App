@@ -33,7 +33,7 @@ function handleChange() {
     uid: user.uid,
     avatar: user_avt.getAttribute("src"),
   };
-  fetch("http://localhost:8000/update", {
+  fetch("https://auth-3vba.onrender.com/update", {
     method: "PUT",
     headers: {
       "Content-Type": "application/json",
