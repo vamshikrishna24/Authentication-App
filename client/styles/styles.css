@@ -1,0 +1,146 @@
+html {
+  font-size: 62.5%;
+}
+* {
+  box-sizing: border-box;
+  font-family: "Noto Sans", system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+    sans-serif;
+}
+.container1 {
+  max-width: 50rem;
+  margin: 5rem auto;
+}
+.container {
+  margin: auto;
+  border: 1px solid #bdbdbd;
+  border-radius: 2.4rem;
+  max-width: 50rem;
+  padding: 5rem;
+}
+hr {
+  background-color: gray;
+}
+
+.main-text > h1 {
+  max-width: 31rem;
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 2.5rem;
+  letter-spacing: -0.035em;
+}
+
+.second-text > p {
+  font-weight: 400;
+  line-height: 2.2rem;
+  font-size: 1.6rem;
+  max-width: 32rem;
+  letter-spacing: -0.035em;
+}
+
+.input-style {
+  width: 35rem;
+  height: 4.8rem;
+  border: 0;
+  outline: none;
+}
+
+input {
+  font-size: 2rem;
+}
+.input-style::placeholder {
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.2rem;
+  letter-spacing: -0.035em;
+  color: #828282;
+}
+
+.fa.fa-envelope {
+  font-size: 3rem;
+  text-align: center;
+  line-height: 4.8rem;
+  color: #828282;
+  width: 10%;
+}
+
+.fa.fa-lock {
+  font-size: 4rem;
+  text-align: center;
+  line-height: 4.8rem;
+  color: #828282;
+  width: 10%;
+}
+
+.form-input {
+  border: 1px solid #bdbdbd;
+  border-radius: 8px;
+  margin: 2rem auto;
+}
+
+.btn {
+  background: #2f80ed;
+  border-radius: 8px;
+  width: 55rem;
+  height: 3.8rem;
+  font-family: "Noto Sans";
+  font-weight: 600;
+  font-size: 1.6rem;
+  line-height: 2.2rem;
+  text-align: center;
+  letter-spacing: -0.035em;
+  color: #ffffff;
+  margin: 0 auto;
+  cursor: pointer;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-details {
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 1.9rem;
+  letter-spacing: -0.035em;
+  color: #828282;
+  text-align: center;
+}
+
+.login-with {
+  margin: 0 auto;
+  width: 21.8rem;
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+}
+
+.login-end {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: -0.035em;
+  color: #828282;
+}
+
+.login-end a {
+  text-decoration: none;
+}
+
+.end-creds {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 1.9rem;
+  letter-spacing: -0.035em;
+  color: #828282;
+}
+
+@media screen and (max-width: 530px) {
+}

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Authentication App</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/a2cc22845d.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="scripts/logout.js" defer></script>
+    <link rel="stylesheet" href="styles/styles-login--view.css" />
+    <script src="scripts/loginview.js" defer></script>
+    <script src="scripts/logout.js" defer></script>
+    <script src="scripts/check.js" defer></script>
+  </head>
+  <body>
+    <div class="nav-bar collapsible">
+      <img src="images/devchallenges.svg" alt="dev challanges icon" />
+      <div class="nav-toggle">
+        <img
+          class="avatarimg"
+          src="images/devchallenges.png"
+          alt="image of user"
+        />
+        <h1 id="name" class="user-name username">User Name</h1>
+        <i class="fas fa-caret-right collapsible-chevron"></i>
+      </div>
+    </div>
+
+    <div class="nav-content collapsible-content collapse_box">
+      <div class="nav-item">
+        <div class="icon"><i class="fa fa-user-circle"></i></div>
+        <a href="#">My Profile</a>
+      </div>
+      <div class="nav-item">
+        <div class="icon"><i class="fas fa-user-friends"></i></div>
+        <a href="#">Group Chat</a>
+      </div>
+      <hr />
+      <div class="nav-item logout" onclick="logout()">
+        <div class="icon"><i class="fa fa-sign-out"></i></div>
+        <a href="#" class="logout">Logout</a>
+      </div>
+    </div>
+    <header class="heading">
+      <p class="head1">Personal info</p>
+      <p class="head2">Basic info, like your name and photo</p>
+    </header>
+    <div class="outer-container">
+      <div class="inner-container">
+        <div class="profile">
+          <div class="main-profile">
+            <p class="m__profile">Profile</p>
+            <p class="m__content">Some info may be visible to other people</p>
+          </div>
+          <button class="btn" id="edit_btn">Edit</button>
+        </div>
+
+        <div class="grid">
+          <div class="d1">photo</div>
+          <div class="d2 photo">
+            <img class="avatarimg" src="images/devchallenges.png" alt="" />
+          </div>
+          <div class="d1">name</div>
+          <div class="d2 name username"></div>
+          <div class="d1">bio</div>
+          <div id="bio" class="d2 bio"></div>
+          <div class="d1">phone</div>
+          <div id="phno" class="d2 phone"></div>
+          <div class="d1">email</div>
+          <div id="email" class="d2 email"></div>
+          <div class="d1">passowrd</div>
+          <div id="pw" class="d2 password">**********</div>
+        </div>
+
+        <div class="end-creds">
+          <p>created by @vamshikrishna24</p>
+          <p>devChallenges.io</p>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
